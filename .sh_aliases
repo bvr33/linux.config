@@ -1,0 +1,22 @@
+#eza
+
+alias ls="eza"
+alias ll="eza -alh"
+alias tree="eza --tree"
+
+#bat
+
+alias cat="bat"
+
+#fzf
+
+alias find="fzf"
+
+#zoxide
+
+alias z="zoxide"
+
+#btop
+
+alias top="btop"
+
