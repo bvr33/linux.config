@@ -27,4 +27,4 @@ alias nano="micro"
 
 #ncdu
 
-alias du = "ncdu"
+alias du="ncdu"
