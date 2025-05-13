@@ -15,7 +15,6 @@ alias find="fzf"
 #zoxide
 
 alias z="zoxide"
-alias cd="zoxide"
 
 #btop
 
