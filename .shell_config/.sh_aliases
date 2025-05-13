@@ -15,8 +15,16 @@ alias find="fzf"
 #zoxide
 
 alias z="zoxide"
+alias cd="zoxide"
 
 #btop
 
 alias top="btop"
 
+#micro
+
+alias nano="micro"
+
+#ncdu
+
+alias du = "ncdu"
