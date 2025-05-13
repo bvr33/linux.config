@@ -13,5 +13,6 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
   source /usr/share/zsh/manjaro-zsh-prompt
 fi
 
-source $HOME/.sh_variables
-source $HOME/.sh_aliases
+if [[ -e $HOME/.shell_config/.sh_loader ]]; then
+  source $HOME/.shell_config/.sh_loader
+fi

@@ -1,0 +1,8 @@
+
+if [[ -e $HOME/.shell_config/.sh_variables ]]; then
+  source $HOME/.shell_config/.sh_variables
+fi
+
+if [[ -e $HOME/.shell_config/.sh_aliases ]]; then
+  source $HOME/.shell_config/.sh_aliases
+fi
