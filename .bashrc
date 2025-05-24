@@ -112,6 +112,10 @@ shopt -s expand_aliases
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
+# MY
+
 if [[ -e $HOME/.shell_config/.sh_loader ]]; then
   source $HOME/.shell_config/.sh_loader
 fi
+
+eval "$(starship init bash)"
